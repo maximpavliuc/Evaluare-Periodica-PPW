@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.main-container{
+
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(assets/new_background_1.png) no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+.div-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    column-gap: 150px;
+}
+
+.orar{
+    display: block;
+    width: 80%;
+    line-height: 25px;
+
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.header div{
+    background-color: green;
+    margin-bottom: 20px;
+    padding: 15px 25px 9px 15px;
+    display: inline-block;    
+    margin: 0;
+    position: relative;
+}
+
+.header div a{
+    text-decoration: none;
+    vertical-align: top;
+    color: white;
+}
+
+.orar{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 15px 29px 15px 15px;
+    background: white;
+    font-weight: 900;
+    text-align: center;
+    width: 366px;
+}
+
+.group{
+    height: 40px;
+    font-size: 16px;
+    width: 410px;
+    margin-top: 20px;
+}
+
+.poisk input{
+    padding: 8px 24px;
+    width: 358px;
+    z-index: 0;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: 20px;
+}
+
+#wrapper {
+    overflow:auto;
+    height:200px;
+}
+
+.lectiile-tabl{
+    display: grid;
+    grid-template-columns: 110px repeat(7,1fr);
+    grid-template-rows: 22px repeat(8,25px);
+    border: 1px black solid;
+    text-align: center;
+    color: yellow;
+
+}
+.lectiile-tabl div{
+    border: 1px gray solid;
+    background-color: white;
+}
